@@ -1,7 +1,7 @@
 import React from "react";
 const Header = () => {
   return (
-    <main className="container flex">
+    <header className="container flex">
       <div>
         <h1 className="text-8xl font-primary font-semibold text-black ">
           YOUR FEET <br />
@@ -30,7 +30,7 @@ const Header = () => {
         </div>
       </div>
       <img src="/public/shoe_image.png" alt="hero-image" />
-    </main>
+    </header>
   );
 };
 
